@@ -13,9 +13,14 @@ h4,
 h5,
 h6 {
   font-family: "Open Sans", sans-serif;
-  color: #000;
+  color: rgb(0, 0, 0);
   font-weight: 400;
   line-height: 1;
+}
+
+h1,
+{
+color: white;
 }
 
 .logo-title {
@@ -189,7 +194,7 @@ a:hover {
 }
 
 .bg-1 {
-  background: #ffffff;
+  background: #0e0e32;
   /* url(../images/backgrounds/banner-bg.jpg) no-repeat; */
   background-size: cover;
 }
@@ -565,7 +570,7 @@ a:hover {
 }
 
 .main-nav {
-  background: #12A1F1;
+  background: #0E0E32;
   box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -920,7 +925,7 @@ a:hover {
 
 .banner .content-block h1,
 .banner .content-block h5 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .banner .content-block h1 {
@@ -948,9 +953,7 @@ a:hover {
   }
 }
 
-.phone-thumb {
-  max-height: 550px;
-}
+.phone-thumb {}
 
 .phone-thumb-md {
   max-height: 600px;
